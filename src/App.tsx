@@ -18,7 +18,7 @@ const queryClient = new QueryClient({
 function App() {
   return (
     <QueryClientProvider client={queryClient}>
-      <BrowserRouter>
+      <BrowserRouter basename="/landtube-admin">
         <Routes>
           <Route path="/login" element={<AdminLogin />} />
           <Route
