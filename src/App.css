@@ -1,0 +1,38 @@
+.card {
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+}
+
+.sidebar-link {
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.sidebar-link:hover,
+.sidebar-link.active {
+  background-color: var(--accent-red);
+  color: white;
+}
+
+.status-badge {
+  padding: 4px 12px;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.status-active {
+  background-color: #1DB954;
+  color: white;
+}
+
+.status-inactive {
+  background-color: #f59e0b;
+  color: white;
+}
+
+.status-blocked {
+  background-color: #E50914;
+  color: white;
+}
